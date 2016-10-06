@@ -77,3 +77,17 @@ decision boundary that makes the most sense based on analytic geometry; generali
 
     from sklearn import svm
     model = svm.SVC() #create SVM classification object
+    
+##boosting
+
+Boosting (convert weak learners to strong learners) - classifier for classification and regressor for regression
+Ada Boost; Gradient Boosting; XGBoost
+
+    From sklearn.ensemble import GradientBoostingClassifier, AdaBoostClassifier
+
+    model = AdaBoostClassifier(n_estimators=10)
+    %time cross_val_score(model, X, data.target).mean()
+
+    X_array = X.toarray()  # Covert to dense matrix (model won't accept sparse matrices)
+    model = GradientBoostingClassifier(n_estimators=k)
+
