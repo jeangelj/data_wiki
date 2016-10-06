@@ -1,2 +1,2 @@
-# datasciencebasics
-data science notes and cheatsheets
+# DATA
+notes, tips and links for data science and data visualizations
