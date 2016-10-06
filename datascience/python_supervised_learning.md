@@ -1,3 +1,20 @@
+##linear regression
+
+    regression (supervised and continuous): functional/linear relationship between input variable x and response variable y → fit the regression model to the dataset by minimizing the sum of the squared residuals (OLS algorithm = Ordinary Least Squares: distance of data point to best fit line)
+
+    from sklearn.linear_model import LinearRegression
+    model = LinearRegression() #create linear regression object
+    model.fit(x_train, y_train) #train model on train data
+    model.score(x_train, y_train) #check score
+
+    print (‘Coefficient: \n’, model.coef_)
+    print (‘Intercept: \n’, model.intercept_) 
+    coefs = zip(model.coef_, X.columns)
+    model.__dict__
+    print "sl = %.1f + " % model.intercept_ + \
+        " + ".join("%.1f %s" % coef for coef in coefs) #linear model
+
+
 ##knn (k nearest neighbors algorithm)
 
 Euclidean distance, can be used for both classification and regression; instance based learning; lazy learning; might need to rescale data to make dimensions comparable
