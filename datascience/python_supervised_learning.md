@@ -1,4 +1,5 @@
-##knn (k nearest neighbors algorithm): 
+##knn (k nearest neighbors algorithm)
+
 Euclidean distance, can be used for both classification and regression; instance based learning; lazy learning; might need to rescale data to make dimensions comparable
 
     from sklearn.neighbors import KNeighborsClassifier 
