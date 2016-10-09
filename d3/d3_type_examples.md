@@ -1,5 +1,14 @@
 ## bar chart 
 
+## dot plot
+
+    svg.selectAll("circle")
+        .data(myDataset)
+        .enter().append("circle")
+        .attr("cx", function(d) { return xScale(d.x); })
+        .attr("cy", function(d) { return yScale(d.y); })
+        .attr("r", 5);
+
 ## path 
     
     //line generator
