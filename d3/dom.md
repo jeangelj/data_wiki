@@ -4,6 +4,7 @@ DOM = Document Object Model (DOM)
 programming interface for HTML and XML documents - defining structure
 
 ##Example
+
    Window
      >Body
        >SVG
