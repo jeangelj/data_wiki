@@ -39,17 +39,17 @@
 
 ##Python Slicing
 
-  print l # whole list
-  print l[2] #third element
-  print l[0:3] #elements 1 through 4
-  print l[:3]# first 3 elements
-  print l[3:] # elements after and including element 3
-  print l[-1] #last element in array
-  print l[-3:] #last three elements in array
-  print l[:] #same as l, but it creates a copy
-  print l[:-2]#everything but last two
-  print l[::2] #every second
-  print l[::-1] #reverse array
+      print l # whole list
+      print l[2] #third element
+      print l[0:3] #elements 1 through 4
+      print l[:3]# first 3 elements
+      print l[3:] # elements after and including element 3
+      print l[-1] #last element in array
+      print l[-3:] #last three elements in array
+      print l[:] #same as l, but it creates a copy
+      print l[:-2]#everything but last two
+      print l[::2] #every second
+      print l[::-1] #reverse array
 
 ##Python Functions
 
