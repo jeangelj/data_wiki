@@ -4,7 +4,7 @@
 
     x = 36  # this is an integer
     x = 3.14  # a decimal number
-    x = True  # Boolean ⋅⋅
+    x = True  # Boolean
     x = "This is a string"
     [ ] # list, mutable sequence
     ( ) # tuple, immutable
