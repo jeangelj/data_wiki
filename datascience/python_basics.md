@@ -1,6 +1,6 @@
 #Python
 
-##Pyhton Data Structures
+##Python Data Structures
 
     x = 36  # this is an integer
     x = 3.14  # a decimal number
