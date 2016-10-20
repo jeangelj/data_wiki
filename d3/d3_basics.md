@@ -26,7 +26,7 @@ d3 selects the first element that matches the specified selector string; while u
         .enter() // return selection of “new placeholder" elements
 
     var any_variable_name_you_can_think_of = d3.select("body").selectAll("g")
-          .data(parts)
+          .data(your_data)
         .enter()
           .append("g")
           .text(function(d) { return d; });
@@ -46,7 +46,7 @@ d3 selects the first element that matches the specified selector string; while u
 
 ##scales
 
-    .scale.linear()
+    d3.scale.linear() // create linear scale function 
     .domain()
     .range()
     //hard-code or 
@@ -71,8 +71,8 @@ d3 selects the first element that matches the specified selector string; while u
 
 ##transition 
 
-    .transition() // 
-    .duration() // 
+    .transition() //create a transition 
+    .duration() //set the duration of the transition in milliseconds
     
 ##functions
 
