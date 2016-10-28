@@ -20,7 +20,7 @@
 
 ```echo ```  print line
 
-```chmod```  
+```chmod``` change a file's permissions
 
 ```clear```   clear terminal
 
