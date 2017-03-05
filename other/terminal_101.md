@@ -1,39 +1,39 @@
-cd #open directory ( or get toHome)
+```cd ```  open directory ( or get toHome)
 
-mkdir # make directory
+```mkdir```   make directory
 
-pwd # print working directory 
+```pwd```   print working directory 
 
-ls # list what is in your directory 
+```ls```   list what is in your directory 
 
-command + shift + H # Home directory
+```command + shift + H ```   Home directory
 
-cp #
+```cp```   copy files
 
-mv #
+```mv ```  move files
 
-python #run python 
+```python```  run python 
 
-jupyter notebook #start jupyter notebook
+```jupyter notebook```  start jupyter notebook
 
-touch #
+```touch```   create file
 
-echo #
+```echo ```  print line
 
-chmod #
+```chmod``` change a file's permissions
 
-clear # clear terminal
+```clear```   clear terminal
 
-control + c #kill
+```control + c ``` kill
 
-cat # top lines of file
+```cat ```  top lines of file
 
-less # preview file (use q to exit)
+```less ```  preview file (use q to exit)
 
-| # use output of one prog as input for other
+```|```   use output of one prog as input for other
 
-tar -czvf  msongs.tgz  ~/Downloads/MSongsDB  #zip file
+```tar -czvf  msongs.tgz ~/Downloads/MSongsDB ```  zip file
 
-tar -xzvf msongs.tgz #unzip file
+```tar -xzvf msongs.tgz ``` unzip file
 
-df –h #see usage/free space
+```df –h```   see usage/free space
